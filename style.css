@@ -1,0 +1,69 @@
+html{
+    background:lightgrey;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    padding: 40px;
+    color:dimgray;
+    border-top: 10px solid black;
+    background: white;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+    text-decoration: underline;
+}
+
+h2{
+    color: black;
+    line-height: 1.4em;
+}
+
+h3{
+    color: black;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+#blog {
+    border-top: 1px dotted;
+}
+
+.hacker {
+    margin-top: 20px;
+}
+
+.google {
+    margin-top: 20px;
+}
+
+.mytable{
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+form{
+    border: 1px solid black;
+}
+#mytitle{
+    color: rgb(0, 0, 0);
+}
+
+#about{
+    color: black;
+}
+
+#contact{
+    color: black;
+}
+
+.table{
+    color: red;
+    margin: 20px;
+    padding: 10px;
+}
