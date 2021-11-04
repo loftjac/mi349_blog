@@ -75,6 +75,8 @@ li{
     padding-left: 10px;
     padding-bottom: 10px;
     margin-top: 40px;
+
+     
 }
 
 figure{
@@ -83,6 +85,7 @@ figure{
     margin: auto;
     margin-top: 40px;
     float:right;
+    margin-left: 15px;
 }
 
 figcaption {
