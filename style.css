@@ -8,7 +8,30 @@ body{
     padding: 40px;
     color:rgb(44, 44, 44);
     border-top: 10px solid black;
-    background: white;
+    background: rgb(252, 250, 250);
+}
+
+header{
+    position: -webkit-sticky;
+    position: stick;
+    top: 0;
+    background: rgb(240, 233, 233);
+    padding: 15px;
+}
+
+section{
+    display: flex;
+    margin-top: -20px;
+}
+
+article{
+    padding: 20px;
+    margin: 0px;
+}
+
+#nav{
+    list-style-type: none;
+    border-color: olive;
 }
 
 h1{
@@ -19,7 +42,7 @@ h1{
 
 h2{
     color: black;
-    line-height: 1.4em;
+    font-size: 35px;
 }
 
 h3{
@@ -30,28 +53,56 @@ p {
     line-height: 1.5em;
 }
 
+li{
+    display: inline;
+    padding:10px;
+}
+    
+
 #blog {
     border-top: 1px dotted;
 }
 
 .hacker {
-    margin-top: 20px;
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 
 .google {
-    margin-top: 20px;
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 
+figure{
+    border: 1px #cccccc solid;
+    padding: 10px;
+    margin: auto;
+    margin-top: 40px;
+    float:right;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+
 .mytable{
-    border: 1px solid black;
-    margin-top: 20px;
+    border: 3px solid black;
+    margin-left: 20px;
+    padding:10px;
 }
 
 form{
-    border: 1px solid black;
-}
-#mytitle{
-    color: rgb(0, 0, 0);
+    border: 3px solid black;
+    padding: 10px;
 }
 
 #about{

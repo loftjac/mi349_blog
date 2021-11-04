@@ -7,30 +7,34 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header id="mytitle">
         <h1>Cyber Security Blog</h1>
-        <p>The latest news on the virtual world that can help you each and every day.</p>
-        <nav>
-         <ul>
-            <li><a href="index.html">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>  
-        </nav>
+    
+            <p>The latest news on the virtual world that can help you each and every day.</p>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>  
+            </nav>
     </header>
-    <section id="blog">
-        <h2>Articles</h2>
-        <article class="blog-post"></article>
+
+    <h2>Articles</h2>
+    <section>
+        <article>
             <h3>What is Google Dorking?</h3>
             <div>
                 <address class="author">Jacob Loftis</address>
                 <time datetime="2021-10-21" title="October 6, 2021">Oct 21, 2021</time>
+                <figure>
+                    <img class="google" src="Google.png" alt="Google" width="400" height="200">
+                    <figcaption>Not really a dork</figcaption>
+                </figure>
             </div>
-            
-            
-            <img class="google" src="Google.png" alt="Google" width="400" height="200">
-    
+                
             <p class="firstp">Google dorking refers to the application of search 
             strings that use advanced search operators to find information that 
             is not easily accessible on the internet. Such information could be 
@@ -54,39 +58,20 @@
             Advanced Google Operators narrow down the results to give you the exact 
             information you searched for. They refine the results so you don’t 
             have to go from page to page looking for what you need. </p>
-    </section>
+        </article>
 
-    <section>
-        <article class="second blog post"></article>
-        <h3>What is Red Teaming?</h3>
+        <article>
+            <h3>What is Red Teaming?</h3>
             <div>
                 <address class="author">Jacob Loftis</address>
                 <time datetime="2021-10-21" title="October 6, 2021">Oct 21, 2021</time>
+                <figure>
+                    <img class="hacker" src="hacker.jpg" alt="hacker" width="300" height="200">
+                    <figcaption>White Hacker</figcaption>
+                </figure>
             </div>
-        <img class="hacker" src="hacker.jpg" alt="hacker" width="300" height="200">
-        <table class="mytable">
-            <tr>
-                <th>Year /</th>
-                <th>Number of Attacks</th>
-            </tr>
-            <tr>
-                <td>2018</td>
-                <td>1.8 Million</td>
-            </tr>
-            <tr>
-                <td>2019</td>
-                <td>2.5 Million</td>
-            </tr>
-            <tr>
-                <td>2020</td>
-                <td>3.8 Million</td>
-            </tr>
-            <tr>
-                <td>2021</td>
-                <td>5.2 Million</td>
-            </tr>
-       </table>    
-        <p>
+            
+            <p>
             Teaming is a practice in cybersecurity aimed at simulating real-life cyberattacks
             on a company’s system, network, or workforce. The idea is to determine the
             impenetrability of the company’s defense against cyber threats. There are two
@@ -113,11 +98,36 @@
             a real cyber attacker would to penetrate both the systems and
             physical premises of the company. This could involve creating
             malware and employing social engineering tactics on the employees.
-        </p>
+            </p>
+        </article>
+    </section>
+    <section>
+        <table class="mytable">
+            <tr>
+                <th>Year /</th>
+                <th>Number of Attacks</th>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>1.8 Million</td>
+            </tr>
+            <tr>
+                <td>2019</td>
+                <td>2.5 Million</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>3.8 Million</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>5.2 Million</td>
+            </tr>
+       </table>    
     </section>
     <section class="signup">
          <form>
-             <label>Sign up for our newsletter:
+             <label>Sign Up For Our Newsletter:
                  <input type="text">
                 </label>
                 <button>Subscribe</button>
